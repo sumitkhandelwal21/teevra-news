@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Frijole&display=swap");
+
+.navbar {
+  position: fixed;
+  z-index: 99;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(1, 1, 17, 0.9);
+  padding: 0 3rem;
+}
+.nav-item > a:hover {
+  transition: 0.1s linear all !important;
+  color: #bd7c2a !important;
+}
+.navbar-collapse {
+  cursor: default;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dialog-box {
+  position: absolute;
+  left: -300px;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cal:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    padding: 0 2rem;
+  }
+  .navbar .container-fluid {
+    padding: 0 !important;
+  }
+  .home-news-section .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .navbar-toggler,
+  .navbar-toggler:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}

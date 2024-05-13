@@ -1,0 +1,14 @@
+.MuiTypography-h5 {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  color: #0d0e43 !important;
+  text-underline-offset: 6px !important;
+}
+.MuiTypography-root {
+  color: #8d8da6;
+}
+.MuiTypography-root > span {
+  color: #0d0e43;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+}

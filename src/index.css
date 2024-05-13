@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  background-color: #fff;
+  height: 7px;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #0d0e439d)
+  );
+  border-radius: 7px;
+}
+::-webkit-scrollbar-track {
+  background-color: #eeeffb;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 99;
+}
